@@ -20,4 +20,3 @@ if (MATCH_TESTS)
 endif()
 
 
-add_executable(app ${all_SRCS})
