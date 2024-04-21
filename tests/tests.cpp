@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../include/forward_list"
+#include "../include/forward_list.h"
 #include <std::string>
 
 class ForwardListTest : public testing::Test {
