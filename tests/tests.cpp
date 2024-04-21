@@ -4,7 +4,7 @@
 
 class ForwardListTest : public testing::Test {
  protected:
-  ForwardList() {
+  ForwardListTest() {
      q0_.Enqueue(1);
      q1_.Enqueue(1.1);
      q2_.Enqueue("2");
