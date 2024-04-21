@@ -14,7 +14,7 @@ file(GLOB all_SRCS
 option(MATCH_TESTS "build tests (or no)" ON)
 
 if (MATCH_TESTS)
-        add_library(example_google_tests ${all_SRCS})
+       
         enable_testing()
         add_subdirectory(tests)
 endif()
