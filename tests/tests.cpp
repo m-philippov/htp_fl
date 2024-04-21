@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include "../include/forward_list.h"
-#include <std::string>
+#include <string>
 
 class ForwardListTest : public testing::Test {
  protected:
